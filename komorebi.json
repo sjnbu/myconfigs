@@ -2,16 +2,21 @@
   "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.28/schema.json",
   "app_specific_configuration_path": "$Env:USERPROFILE/applications.json",
   "default_workspace_padding": 0,
-  "default_container_padding": 0,
+  "default_container_padding": 5,
   "border": false,
   "border_width": 3,
   "stackbar": {
-    "height": 30,
+    "height": 10,
     "mode": "OnStack",
     "tabs": {
-      "width": 100
+      "width": 50,
+      "focused_text": "#21759c",
+      "unfocused_text": "#21759c",
+      "background": "#21759c"
     }
   },
+  "mouse_follows_focus": false,
+
   "animation": {
     "enabled": true,
     "duration": 300,
@@ -19,7 +24,7 @@
     "fps": 60
   },
   "transparency": true,
-  "transparency_alpha": 190,
+  "transparency_alpha": 200,
   "monitors": [
     {
       "workspaces": [

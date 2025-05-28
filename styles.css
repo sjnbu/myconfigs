@@ -1,6 +1,6 @@
 * {
 	font-size: 13px;
-	color: #ffffff;
+	color: #3a3a3a;
 	font-weight: 600;
 	font-family: "Segoe UI","JetBrainsMono NFP";
 	margin: 0;
@@ -9,7 +9,34 @@
 .yasb-bar {
 	padding: 0 8px;
 	margin: 0;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0);
+}
+/* Base style for workspace buttons */
+.workspace {
+  min-width: 28px;
+  min-height: 28px;
+  padding: 0;
+  margin: 2px;
+  border-radius: 4px;
+  font-size: 12px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 28px; /* Vertically center text */
+  border: 1px solid #666;
+  background-color: #222;
+  color: #ccc;
+}
+
+/* Active workspace button */
+.workspace.active {
+  background-color: #5a5;
+  color: #fff;
+  border-color: #8f8;
+}
+
+/* Populated workspace button (not active but has windows) */
+.workspace.populated {
+  background-color: #444;
 }
 .widget {
 	padding: 0 8px;
