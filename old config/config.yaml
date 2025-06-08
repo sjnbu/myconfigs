@@ -96,10 +96,7 @@ widgets:
         next_track: "\ue893"
 
       label_shadow:
-        enabled: true
-        color: "black"
-        radius: 3
-        offset: [1, 1]
+        enabled: false
 
   active_window:
     type: "yasb.active_window.ActiveWindowWidget"
@@ -222,7 +219,4 @@ widgets:
         right: 0
         bottom: 0
       btn_shadow:
-        enabled: true
-        color: "black"
-        radius: 3
-        offset: [1, 1]
+        enabled: false
