@@ -1,0 +1,161 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.28/schema.json",
+  "app_specific_configuration_path": "$Env:USERPROFILE/applications.json",
+  "default_workspace_padding": 0,
+  "default_container_padding": 5,
+
+  "border": true,
+  "border_colours": {
+    "monocle": "#ffffff",
+    "single": "#acacac",
+    "stack": "#c4e4ff",
+    "unfocused": "#00000000"
+  },
+  "border_width": 3,
+
+  "global_work_area_offset": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
+  },
+
+  "ignore_rules": [{
+    "kind": "Title",
+    "id": "WaitForMeKomorebi",
+    "matching_strategy": "Contains"
+  }],
+
+  "stackbar": {
+    "height": 10,
+    "mode": "Never",
+    "tabs": {
+      "width": 50,
+      "focused_text": "#21759c",
+      "unfocused_text": "#21759c",
+      "background": "#21759c"
+    }
+  },
+  "mouse_follows_focus": false,
+
+  "animation": {
+    "enabled": true,
+    "duration": 300,
+    "style": "EaseOutQuart",
+    "fps": 60
+  },
+  "transparency": false,
+  
+  "monitors": [
+    {
+      "workspaces": [
+        {
+          "name": "Main",
+          "layout": "BSP"
+        },
+        {
+          "name": "Code",
+          "layout": "RightMainVerticalStack"
+        },
+        {
+          "name": "Chat",
+          "layout": "RightMainVerticalStack"
+        },
+        {
+          "name": "IV",
+          "layout": "RightMainVerticalStack"
+        },
+        {
+          "name": "V",
+          "layout": "RightMainVerticalStack"
+        },
+        {
+          "name": "VI",
+          "layout": "RightMainVerticalStack"
+        },
+        {
+          "name": "VII",
+          "layout": "RightMainVerticalStack"
+        }
+      ]
+    },
+    {
+      "workspaces": [
+        {
+          "name": "Main",
+          "layout": "RightMainVerticalStack"
+        },
+        {
+          "name": "Code",
+          "layout": "RightMainVerticalStack"
+        },
+        {
+          "name": "Chat",
+          "layout": "RightMainVerticalStack"
+        },
+        {
+          "name": "IV",
+          "layout": "RightMainVerticalStack"
+        },
+        {
+          "name": "V",
+          "layout": "RightMainVerticalStack"
+        },
+        {
+          "name": "VI",
+          "layout": "RightMainVerticalStack"
+        },
+        {
+          "name": "VII",
+          "layout": "RightMainVerticalStack"
+        }
+      ]
+    },
+    {
+      "workspaces": [
+        {
+          "name": "Main",
+          "layout": "RightMainVerticalStack",
+          "workspace_padding": 40,
+          "container_padding": 20
+        },
+        {
+          "name": "Code",
+          "layout": "RightMainVerticalStack",
+          "workspace_padding": 40,
+          "container_padding": 20
+        },
+        {
+          "name": "Chat",
+          "layout": "RightMainVerticalStack",
+          "workspace_padding": 40,
+          "container_padding": 20
+        },
+        {
+          "name": "IV",
+          "layout": "RightMainVerticalStack",
+          "workspace_padding": 40,
+          "container_padding": 20
+        },
+        {
+          "name": "V",
+          "layout": "RightMainVerticalStack",
+          "workspace_padding": 40,
+          "container_padding": 20
+        },
+        {
+          "name": "VI",
+          "layout": "RightMainVerticalStack",
+          "workspace_padding": 40,
+          "container_padding": 20
+        },
+        {
+          "name": "VII",
+          "layout": "RightMainVerticalStack",
+          "workspace_padding": 40,
+          "container_padding": 20
+        }
+      ]
+    }
+  ]
+}
